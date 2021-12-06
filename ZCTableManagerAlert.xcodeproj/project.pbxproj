@@ -17,6 +17,7 @@
 		862EE92C2759ED1900E4635F /* ZCTableManagerAlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 862EE92B2759ED1900E4635F /* ZCTableManagerAlertTests.m */; };
 		862EE9362759ED1900E4635F /* ZCTableManagerAlertUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 862EE9352759ED1900E4635F /* ZCTableManagerAlertUITests.m */; };
 		862EE9382759ED1900E4635F /* ZCTableManagerAlertUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 862EE9372759ED1900E4635F /* ZCTableManagerAlertUITestsLaunchTests.m */; };
+		862EE947275DE63700E4635F /* WQPopShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 862EE945275DE63700E4635F /* WQPopShareView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		862EE9312759ED1900E4635F /* ZCTableManagerAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCTableManagerAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		862EE9352759ED1900E4635F /* ZCTableManagerAlertUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCTableManagerAlertUITests.m; sourceTree = "<group>"; };
 		862EE9372759ED1900E4635F /* ZCTableManagerAlertUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCTableManagerAlertUITestsLaunchTests.m; sourceTree = "<group>"; };
+		862EE945275DE63700E4635F /* WQPopShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQPopShareView.m; sourceTree = "<group>"; };
+		862EE946275DE63700E4635F /* WQPopShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQPopShareView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,7 @@
 		862EE9032759ED1600E4635F = {
 			isa = PBXGroup;
 			children = (
+				862EE944275DE3B900E4635F /* ZCTableCommon */,
 				862EE90E2759ED1600E4635F /* ZCTableManagerAlert */,
 				862EE92A2759ED1900E4635F /* ZCTableManagerAlertTests */,
 				862EE9342759ED1900E4635F /* ZCTableManagerAlertUITests */,
@@ -134,6 +138,15 @@
 				862EE9372759ED1900E4635F /* ZCTableManagerAlertUITestsLaunchTests.m */,
 			);
 			path = ZCTableManagerAlertUITests;
+			sourceTree = "<group>";
+		};
+		862EE944275DE3B900E4635F /* ZCTableCommon */ = {
+			isa = PBXGroup;
+			children = (
+				862EE946275DE63700E4635F /* WQPopShareView.h */,
+				862EE945275DE63700E4635F /* WQPopShareView.m */,
+			);
+			path = ZCTableCommon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				862EE9172759ED1600E4635F /* ViewController.m in Sources */,
+				862EE947275DE63700E4635F /* WQPopShareView.m in Sources */,
 				862EE9112759ED1600E4635F /* AppDelegate.m in Sources */,
 				862EE9222759ED1900E4635F /* main.m in Sources */,
 				862EE9142759ED1600E4635F /* SceneDelegate.m in Sources */,
