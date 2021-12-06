@@ -90,8 +90,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "ZCTableCommonKit", "ZCTableCommonKit/**/*.{h,m}"
-  spec.exclude_files = "ZCTableCommonKit/Exclude"
+  spec.source_files  = "ZCTableCommon", "ZCTableCommon/**/*.{h,m}"
+  spec.exclude_files = "ZCTableCommon/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
